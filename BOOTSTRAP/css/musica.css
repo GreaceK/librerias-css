@@ -1,0 +1,87 @@
+*{
+  font-family: arial;
+  padding: 0px;
+  margin: 0px;
+}
+
+header{
+  margin-right:  50px;
+  margin-top: 10px;
+  max-width: 100%;
+
+}
+header nav article{
+  width: 960px;
+  margin: auto;
+  max-width: 100%
+}
+aside{
+max-width: 100%;
+ }
+.logo{
+  float: left;
+  margin-left: 20px;
+}
+.red_social{
+  float: right;
+  margin-top: 50px;
+}
+.limpiar{
+  clear: both;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 0px 40px;
+}
+
+
+textarea{
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  max-width: 100%;
+}
+
+table{
+  color: black;
+}
+
+
+body{
+  background: #A93226;
+}
+
+header{
+  background: white;
+}
+
+article{
+
+  background: white;
+}
+  table{
+    margin-left: 15px;
+  }
+  *{
+    font-size:14px;
+  }
+
+
+  .app{
+    font-size: 40px;
+  }
+img{
+  max-width: 100%;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 995px) {
+    .ocultar-sm-xs{
+        display: none;
+    }
+    header{
+      text-align:center ;
+    
+    }
+}

@@ -1,0 +1,59 @@
+body {
+	background: url('../images/background.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #296762;
+}
+header {
+    border-right: 1px solid #f4ce20;
+    color: #fff;
+}
+hr {
+    border-color: #f4ce20;
+}
+
+.contenedor {
+    background-color: rgba(41,103,98,0.6);
+    padding: 1em;
+}
+.slogan{
+    text-align: right;
+    padding-right: 10px;
+}
+.informacion {
+    background-color: rgba(41,103,98,0.8);
+    background-color: rgba(255,255,255,0.8);
+    padding: 1em;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+.fecha {
+    font-size: small;
+    color: #296762;
+    font-weight: bold;
+}
+h2 {
+    color: #000;
+}
+.callout {
+    border-radius: 0.5em;
+    padding-left: 64px;
+    min-height: 64px;
+    background-position: left 50%;
+    background-repeat: no-repeat;
+}
+.mujer {
+    background-image: url( ../images/mujer.png );
+}
+.hombre {
+    background-image: url( ../images/hombre.png );
+}
+.fecha-comentario {
+    font-size: small;
+    color: #888;
+    text-align: right;
+}
+.publicar {
+    text-align: right;
+}
